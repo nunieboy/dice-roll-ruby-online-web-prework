@@ -9,5 +9,5 @@
 #dice = (1, 2, 3, 4, 5, 6)
 
 def roll
-  [1, 2, 3, 4, 5, 6].shuffly.first
+  [1, 2, 3, 4, 5, 6].shuffle.first
 end
