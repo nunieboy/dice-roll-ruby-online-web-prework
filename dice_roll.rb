@@ -6,8 +6,8 @@
 #   # code goes here
 #   rand 1..6
 # end
-#dice = (1, 2, 3, 4, 5, 6)
+#dice = [1, 2, 3, 4, 5, 6]
 
 def roll
-  [1, 2, 3, 4, 5, 6].shuffle.first
+  dice.shuffle.first
 end
